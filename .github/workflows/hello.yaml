@@ -10,7 +10,7 @@ on:
 
 jobs:
   Explore-Github-Actions:
-    runs-on: ubuntu-22-04
+    runs-on: ubuntu-22.04
     steps:
       - name: Say Hello
         run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
