@@ -3,14 +3,15 @@ run-name: ${{github.actor}} is testing out Github Actions 💥
 
 on:
   push:
-    branches: [main]
+    branches: -main
   pull_request:
-    branches: [main]
+    branches:
+      - main
     types: [opened, synchronize]
 
 jobs:
   Explore-Github-Actions:
-    runs-on: ubuntu@latest
+    runs-on: ubuntu-22
     steps:
       - name: Say Hello
         run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
