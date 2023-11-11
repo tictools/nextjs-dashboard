@@ -1,5 +1,9 @@
-## Next.js App Router Course - Starter
+# Next.js App Router Course
 
-This is the starter template for the Next.js App Router Course. It contains the starting code for the dashboard application.
+## Dashboard application
+
+[![Pipeline](https://github.com/tictools/nextjs-dashboard/actions/workflows/pipeline.yaml/badge.svg)](https://github.com/tictools/nextjs-dashboard/actions/workflows/pipeline.yaml)
+
+Next.js App Router dashboard application.
 
 For more information, see the [course curriculum](https://nextjs.org/learn) on the Next.js Website.
