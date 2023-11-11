@@ -18,7 +18,6 @@ export default async function RevenueChart({
   // NOTE: comment in this code when you get to this point in the course
 
   const { yAxisLabels, topLabel } = generateYAxis(revenue);
-  console.log({ yAxisLabels, topLabel });
   if (!revenue || revenue.length === 0) {
     return <p className="mt-4 text-gray-400">No data available.</p>;
   }
